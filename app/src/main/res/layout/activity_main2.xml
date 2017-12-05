@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#22A7F0"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_margin="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Menu Utama"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnlistpesan"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="List Olahraga"/>
+        <Button
+            android:id="@+id/btnabout"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="About"/>
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Exit"
+            android:onClick="keluar"/>
+    </LinearLayout>
+</RelativeLayout>
